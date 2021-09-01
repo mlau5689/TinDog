@@ -163,15 +163,22 @@ p
 {
   background-color: #ff4c68;
 }
+@media (max-width: 992px)
+{
+  .nav-link
+  {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 1200px)
 {
-  .title
-  {
-    text-align: center;
-  }
   .iphone
   {
     transform: rotate(0);
     position: static;
+  }
+  .title
+  {
+    text-align: center;
   }
 }
